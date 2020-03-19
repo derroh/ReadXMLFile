@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WinCoS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RecordedYieldPerRecipeLogP01>
+    <RecordedYieldPerRecipeLog>
+      <LineIdent>MIL1</LineIdent>
+      <RecordedDataPeriodLog>
+        <PeriodIdent>Day</PeriodIdent>
+        <StartDate>2020-01-12T06:00:00</StartDate>
+        <EndDate>2020-01-13T06:00:00</EndDate>
+      </RecordedDataPeriodLog>
+      <RecordedScale>
+        <Ident>A_4003_PWC10</Ident>
+        <Name>Scale B1</Name>
+        <Weight>0</Weight>
+      </RecordedScale>
+      <RecordedScale>
+        <Ident>A_4510_PWC10</Ident>
+        <Name>Flour 1 Scale</Name>
+        <Weight>0</Weight>
+      </RecordedScale>
+      <RecordedScale>
+        <Ident>A_4526_PWC10</Ident>
+        <Name>Flour 2 Scale</Name>
+        <Weight>0</Weight>
+      </RecordedScale>
+      <RecordedScale>
+        <Ident>A_6017_PWC10</Ident>
+        <Name>Bran Scale</Name>
+        <Weight>0</Weight>
+      </RecordedScale>
+      <RecordedScale>
+        <Ident>A_6003_PWC10</Ident>
+        <Name>Pollard Scale</Name>
+        <Weight>7</Weight>
+      </RecordedScale>
+      <RecordedYield>
+        <Ident>MIL1_RCV37</Ident>
+        <Name>Flour 1</Name>
+        <ActualYield>0</ActualYield>
+      </RecordedYield>
+      <RecordedYield>
+        <Ident>MIL1_RCV38</Ident>
+        <Name>Flour 2</Name>
+        <ActualYield>0</ActualYield>
+      </RecordedYield>
+      <RecordedYield>
+        <Ident>MIL1_RCV39</Ident>
+        <Name>Bran</Name>
+        <ActualYield>0</ActualYield>
+      </RecordedYield>
+      <RecordedYield>
+        <Ident>MIL1_RCV40</Ident>
+        <Name>Pollard</Name>
+        <ActualYield>8</ActualYield>
+      </RecordedYield>
+      <RecordedYield>
+        <Ident>MIL1_SND35</Ident>
+        <Name>B1 Scale</Name>
+        <ActualYield>0</ActualYield>
+      </RecordedYield>
+    </RecordedYieldPerRecipeLog>
+  </RecordedYieldPerRecipeLogP01>
+</WinCoS>

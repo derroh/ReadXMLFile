@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WinCoS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RecordedStorageSummaryGroupByLogP01>
+    <RecordedStorageSummaryGroupByLog>
+      <LineIdent>INT1</LineIdent>
+      <TotalFilling>221985</TotalFilling>
+      <TotalDischarging>221985</TotalDischarging>
+      <RecordedStorageSummaryLogByLine>
+        <Ident>9001</Ident>
+        <Name>Truck</Name>
+        <RecordedDataPeriodLog>
+          <PeriodIdent>Day</PeriodIdent>
+          <StartDate>2020-01-13T06:00:00</StartDate>
+          <EndDate>2020-01-14T06:00:00</EndDate>
+        </RecordedDataPeriodLog>
+      </RecordedStorageSummaryLogByLine>
+    </RecordedStorageSummaryGroupByLog>
+    <RecordedStorageSummaryGroupByLog>
+      <LineIdent>FCL1</LineIdent>
+      <TotalFilling>286</TotalFilling>
+      <TotalDischarging>286</TotalDischarging>
+      <RecordedStorageSummaryLogByLine>
+        <Ident>9005</Ident>
+        <Name>Water addition tank</Name>
+        <RecordedDataPeriodLog>
+          <PeriodIdent>Day</PeriodIdent>
+          <StartDate>2021-01-13T06:00:00</StartDate>
+          <EndDate>2021-01-14T06:00:00</EndDate>
+        </RecordedDataPeriodLog>
+      </RecordedStorageSummaryLogByLine>
+    </RecordedStorageSummaryGroupByLog>
+    <RecordedStorageSummaryGroupByLog>
+      <LineIdent>SDP2</LineIdent>
+      <TotalFilling>11</TotalFilling>
+      <TotalDischarging>11</TotalDischarging>
+      <RecordedStorageSummaryLogByLine>
+        <Ident>9005</Ident>
+        <Name>Water addition tank 2</Name>
+        <RecordedDataPeriodLog>
+          <PeriodIdent>Day</PeriodIdent>
+          <StartDate>2022-01-13T06:00:00</StartDate>
+          <EndDate>2022-01-14T06:00:00</EndDate>
+        </RecordedDataPeriodLog>
+      </RecordedStorageSummaryLogByLine>
+    </RecordedStorageSummaryGroupByLog>
+  </RecordedStorageSummaryGroupByLogP01>
+</WinCoS>
