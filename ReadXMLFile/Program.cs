@@ -14,7 +14,7 @@ namespace ReadXMLFile
             Console.WriteLine("/******************************* START OF READING FILE 1 ***********************************/");
 
             /************************* EXAMPLE FOR READING FILE 1 *****************************************/
-            string path = @"\RECORDEDYIELDPERRECIPELOGP01_20200115060323.xml"; //path to file
+            string path = @"D:\path_to_folder_with_xml\RECORDEDYIELDPERRECIPELOGP01_20200115060323.xml"; //path to file
 
             XmlDocument doc = new XmlDocument();
             doc.Load(path);
@@ -54,40 +54,40 @@ namespace ReadXMLFile
                 count++;
             }
             /************************************* END OF FILE 1****************************************/
-
+            Console.ReadKey();
             Console.WriteLine("/******************************* START OF READING FILE 2 ***********************************/");
 
             /******************************* START OF READING FILE 2 ***********************************/
-            string path2 = @"\RECORDEDSTORAGESUMMARYGROUPBYLOGP01_20200114141911.xml"; //path to file
+            string path2 = @"D:\path_to_folder_with_xml\RECORDEDSTORAGESUMMARYGROUPBYLOGP01_20200114141911.xml"; //path to file
 
             XmlDocument doc2 = new XmlDocument();
-            doc.Load(path2);
+            doc2.Load(path2);
 
             int count2 = 0;
             foreach (XmlNode xmlNode in doc2.DocumentElement.GetElementsByTagName("RecordedStorageSummaryGroupByLog"))
             {
 
-                XmlNode NodeLineIdent2 = doc2.GetElementsByTagName("LineIdent")[count];
+                XmlNode NodeLineIdent2 = doc2.GetElementsByTagName("LineIdent")[count2];
                 string LineIdent2 = NodeLineIdent2.InnerText;
 
-                XmlNode NodeTotalFilling = doc2.GetElementsByTagName("TotalFilling")[count];
+                XmlNode NodeTotalFilling = doc2.GetElementsByTagName("TotalFilling")[count2];
                 string TotalFilling = NodeTotalFilling.InnerText;
 
-                XmlNode NodeTotalDischarging = doc2.GetElementsByTagName("TotalDischarging")[count];
+                XmlNode NodeTotalDischarging = doc2.GetElementsByTagName("TotalDischarging")[count2];
                 string TotalDischarging = NodeTotalDischarging.InnerText;
                 /**********************************************************/
-                XmlNode NodeIdent = doc2.GetElementsByTagName("Ident")[count];
+                XmlNode NodeIdent = doc2.GetElementsByTagName("Ident")[count2];
                 string Ident = NodeIdent.InnerText;
 
-                XmlNode NodeName = doc2.GetElementsByTagName("Name")[count];
+                XmlNode NodeName = doc2.GetElementsByTagName("Name")[count2];
                 string Name = NodeName.InnerText;
                 /**********************************************************/
-                XmlNode NodePeriodIdent2 = doc2.GetElementsByTagName("PeriodIdent")[count];
+                XmlNode NodePeriodIdent2 = doc2.GetElementsByTagName("PeriodIdent")[count2];
                 string PeriodIdent2 = NodePeriodIdent2.InnerText;
 
-                XmlNode NodeStartDate2 = doc2.GetElementsByTagName("StartDate")[count];
+                XmlNode NodeStartDate2 = doc2.GetElementsByTagName("StartDate")[count2];
                 string StartDate2 = NodeStartDate2.InnerText;
-                XmlNode NodeEndDate2 = doc2.GetElementsByTagName("EndDate")[count];
+                XmlNode NodeEndDate2 = doc2.GetElementsByTagName("EndDate")[count2];
                 string EndDate2 = NodeEndDate2.InnerText;
 
 
@@ -101,7 +101,7 @@ namespace ReadXMLFile
                 Console.WriteLine("---------------------------EndDate {0}", EndDate2);
                 count2++;
             }
-
+            Console.ReadKey();
         }
     }
 }
